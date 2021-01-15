@@ -63,10 +63,6 @@ def getUserJson(areaStr,userInfo,token,phone,phone2,name):
         "userid": userInfo['userId'],
         "updatainfo": [
             {
-                "propertyname": "temperature",
-                "value": temperature
-            },
-            {
                 "propertyname": "symptom",
                 "value": "无症状"
             },
